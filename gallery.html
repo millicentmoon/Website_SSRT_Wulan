@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Karya & Dokumentasi | SSRT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+<body>
+
+    <div class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <aside class="sidebar" id="sidebar">
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo SSRT">
+            <h2>SSRT</h2>
+        </div>
+        <nav>
+            <a href="index.html"><i class="fas fa-home"></i> Beranda</a>
+            <a href="about.html"><i class="fas fa-users"></i> Tentang Kami</a>
+            <a href="gallery.html" class="active"><i class="fas fa-brush"></i> Galeri Karya</a> <hr style="border-color: rgba(255, 255, 255, 0.2); margin: 10px 25px;">
+            <a href="info_materi.html"><i class="fas fa-book-open"></i> Materi & Praktikum</a>
+            <a href="info_lomba.html"><i class="fas fa-trophy"></i> Lomba & Prestasi</a>
+            <a href="info_beasiswa.html"><i class="fas fa-graduation-cap"></i> Beasiswa Seni</a>
+            <hr style="border-color: rgba(255, 255, 255, 0.2); margin: 10px 25px;">
+            <a href="register.html"><i class="fas fa-hand-point-right"></i> Pendaftaran</a>
+            <a href="kontak.html"><i class="fas fa-envelope"></i> Kontak</a>
+        </nav>
+    </aside>
+
+    <main class="content-area">
+        <section class="main-content" style="padding: 40px;">
+
+            <h1 style="text-align: center; font-size: 3.5rem; margin-bottom: 20px; border-bottom: 4px solid var(--gold-accent); padding-bottom: 10px;">
+                Galeri Kreativitas SSRT
+            </h1>
+            <p style="text-align: center; margin-bottom: 40px; font-size: 1.1rem; color: #555;">
+                Jelajahi karya terbaik anggota kami, mulai dari sketsa hingga digital art, serta dokumentasi perjalanan seni kami.
+            </p>
+
+            <div class="filter-bar" style="text-align: center; margin-bottom: 40px;">
+                <button class="cta-button" style="background: var(--maroon); color: white; margin: 5px; border: none;">Semua</button>
+                <button class="cta-button" style="background: white; color: var(--maroon); border: 1px solid var(--maroon); margin: 5px;">Karya Murid</button>
+                <button class="cta-button" style="background: white; color: var(--maroon); border: 1px solid var(--maroon); margin: 5px;">Dokumentasi</button>
+                <button class="cta-button" style="background: white; color: var(--maroon); border: 1px solid var(--maroon); margin: 5px;">Foto Anggota</button>
+            </div>
+
+
+            <h2 style="font-size: 2.5rem; margin-top: 50px; margin-bottom: 20px; color: var(--maroon);"><i class="fas fa-paint-brush"></i> Karya Terbaik</h2>
+            <div class="gallery-grid">
+                
+                <div class="gallery-item" data-tahun="2024" data-kategori="Karya Murid">
+                    <img src="senja.jpg" alt="Lukisan Senja">
+                    <div class="gallery-overlay">
+                        <h4>Senja di Kanvas Tua</h4>
+                        <p>Oleh: Andi P. (Kelas XII)</p>
+                        <p style="font-size: 0.9rem;">2024 - Lukisan Akrilik</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-tahun="2023" data-kategori="Karya Murid">
+                    <img src="digital.jpg" alt="Ilustrasi Digital">
+                    <div class="gallery-overlay">
+                        <h4>Wajah Robotik</h4>
+                        <p>Oleh: Bunga C. (Kelas X)</p>
+                        <p style="font-size: 0.9rem;">2023 - Digital Art</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-tahun="2023" data-kategori="Karya Murid">
+                    <img src="art pensil.jpg" alt="Sketsa Pensil">
+                    <div class="gallery-overlay">
+                        <h4>Nicolas Tesla</h4>
+                        <p>Oleh: Danu R. (Kelas XI)</p>
+                        <p style="font-size: 0.9rem;">2023 - Sketsa Pensil</p>
+                    </div>
+                </div>
+                
+                </div>
+            
+            <h2 style="font-size: 2.5rem; margin-top: 50px; margin-bottom: 20px; color: var(--maroon);"><i class="fas fa-camera"></i> Dokumentasi Kegiatan</h2>
+            <div class="gallery-grid">
+
+                <div class="gallery-item" data-tahun="2024" data-kategori="Dokumentasi">
+                    <img src="kunjungan.jpg" alt="Workshop Payung Geulis">
+                    <div class="gallery-overlay">
+                        <h4>Workshop Payung Geulis</h4>
+                        <p>Budaya Khas Tasikmalaya</p>
+                        <p style="font-size: 0.9rem;">November 2024</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-tahun="2024" data-kategori="Dokumentasi">
+                    <img src="seminar.jpg" alt="Seminar Watercolour">
+                    <div class="gallery-overlay">
+                        <h4>Seminar Nasional Seni Rupa</h4>
+                        <p>Bersama Seniman Profesional</p>
+                        <p style="font-size: 0.9rem;">Maret 2024</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-tahun="2023" data-kategori="Dokumentasi">
+                    <img src="pameran.jpg" alt="Pameran Tahunan">
+                    <div class="gallery-overlay">
+                        <h4>Pameran Akhir Tahun SSRT</h4>
+                        <p>Menampilkan 100+ Karya</p>
+                        <p style="font-size: 0.9rem;">Desember 2023</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <h2 style="font-size: 2.5rem; margin-top: 50px; margin-bottom: 20px; color: var(--maroon);"><i class="fas fa-users-viewfinder"></i> Foto Anggota & Guru</h2>
+            <div class="gallery-grid">
+                
+                <div class="gallery-item" data-tahun="2024" data-kategori="Foto Anggota">
+                    <img src="2024.jpg" alt="Foto Angkatan 2024">
+                    <div class="gallery-overlay">
+                        <h4>Angkatan 2024</h4>
+                        <p>Semangat Baru, Karya Baru</p>
+                        <p style="font-size: 0.9rem;">Juli 2024</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-tahun="2022" data-kategori="Foto Anggota">
+                    <img src="WhatsApp Image 2025-10-23 at 22.28.17_18b3b168.jpg" alt="Foto Angkatan 2022">
+                    <div class="gallery-overlay">
+                        <h4>Angkatan 2022</h4>
+                        <p>Nostalgia Seniman Muda</p>
+                        <p style="font-size: 0.9rem;">Juni 2022</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <footer style="padding: 20px; text-align: center; background-color: var(--text-dark); color: var(--light-paper);">
+            <p>&copy; 2025 SSRT-Sanggar Seni Rupa Trimatra. | Powered by Creativity.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

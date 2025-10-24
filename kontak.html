@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak & Lokasi | SSRT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <aside class="sidebar" id="sidebar">
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo SSRT">
+            <h2>SSRT</h2>
+        </div>
+        <nav>
+            <a href="index.html"><i class="fas fa-home"></i> Beranda</a>
+            <a href="about.html"><i class="fas fa-users"></i> Tentang Kami</a>
+            <a href="gallery.html"><i class="fas fa-brush"></i> Galeri Karya</a>
+            <hr style="border-color: rgba(255, 255, 255, 0.2); margin: 10px 25px;">
+            <a href="info_materi.html"><i class="fas fa-book-open"></i> Materi & Praktikum</a>
+            <a href="info_lomba.html"><i class="fas fa-trophy"></i> Lomba & Prestasi</a>
+            <a href="info_beasiswa.html"><i class="fas fa-graduation-cap"></i> Beasiswa Seni</a>
+            <hr style="border-color: rgba(255, 255, 255, 0.2); margin: 10px 25px;">
+            <a href="register.html"><i class="fas fa-hand-point-right"></i> Pendaftaran</a>
+            <a href="kontak.html" class="active"><i class="fas fa-envelope"></i> Kontak</a> </nav>
+    </aside>
+
+    <main class="content-area">
+        <section class="main-content" style="padding: 40px;">
+
+            <h1 style="text-align: center; font-size: 3.5rem; margin-bottom: 20px; border-bottom: 4px solid var(--gold-accent); padding-bottom: 10px;">
+                <i class="fas fa-headset"></i> Kontak Kami
+            </h1>
+            <p style="text-align: center; margin-bottom: 40px; font-size: 1.1rem; color: #555;">
+                Kami siap menjawab pertanyaan Anda mengenai ekstrakurikuler, pendaftaran, atau kegiatan SSRT lainnya.
+            </p>
+
+            <div class="contact-info-grid">
+                
+                <div class="info-box">
+                    <i class="fas fa-phone-volume"></i>
+                    <h4 style="color: var(--maroon);">Hotline Pendaftaran</h4>
+                    <p style="font-weight: 600;">+62 8193-4183-194 (WA Aktif)</p>
+                    <p style="font-size: 0.9rem;">Senin - Jumat, 09.00 - 16.00 WIB</p>
+                </div>
+
+                <div class="info-box">
+                    <i class="fas fa-at"></i>
+                    <h4 style="color: var(--maroon);">Email Resmi</h4>
+                    <p style="font-weight: 600;">ssrt.tritas@sekolah.sch.id</p>
+                    <p style="font-size: 0.9rem;">Respon dalam 1x24 Jam Kerja</p>
+                </div>
+
+                <div class="info-box">
+                    <i class="fab fa-instagram"></i>
+                    <h4 style="color: var(--maroon);">Media Sosial</h4>
+                    <p style="font-weight: 600;">@SSRT_Official</p>
+                    <p style="font-size: 0.9rem;">Lihat Dokumentasi Kegiatan Terbaru Kami</p>
+                </div>
+
+            </div>
+
+            <div class="contact-form-container">
+                <h2 style="font-size: 2.2rem; color: var(--maroon); margin-bottom: 20px; text-align: center;">Kirim Pesan Cepat</h2>
+                <form action="#" method="POST">
+                    
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" required>
+                    
+                    <label for="email">Email atau Nomor HP Aktif</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="subjek">Subjek Pesan</label>
+                    <input type="text" id="subjek" name="subjek" required>
+                    
+                    <label for="pesan">Pesan Anda</label>
+                    <textarea id="pesan" name="pesan" rows="6" required></textarea>
+                    
+                    <button type="submit" class="cta-button" style="width: 100%; border: none; cursor: pointer;">Kirim Pesan</button>
+                    
+                </form>
+            </div>
+
+            <h2 style="font-size: 2.2rem; color: var(--maroon); margin-top: 50px; margin-bottom: 20px; text-align: center;"><i class="fas fa-map-marker-alt"></i> Lokasi Studio SSRT</h2>
+            <p style="text-align: center; margin-bottom: 20px;">Studio SSRT terletak di lantai 1 dekat kantin sekolah. Kunjungi kami!</p>
+            
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.307204855523!2d107.5960416147731!3d-6.974447494498342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e82a8f8d6d81%3A0x6b7a5e8f4b0d0b0!2sSekolah%20Menengah%20Atas%20(contoh%20lokasi)!5e0!3m2!1sid!2sid!4v1609459200000!5m2!1sid!2sid" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+
+        </section>
+
+        <footer style="padding: 20px; text-align: center; background-color: var(--text-dark); color: var(--light-paper);">
+            <p>&copy; 2025 SSRT-Sanggar Seni Rupa Trimatra. | Powered by Creativity.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
